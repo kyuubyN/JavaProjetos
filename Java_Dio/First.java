@@ -4,11 +4,14 @@ import java.util.Scanner;
 public class First {
     public static void main(String[] arg) throws Exception {
         System.out.println("Olá");
-        int numero = 2;
+        int numero = 10;
         if (numero > 1) {
             System.out.println("Você tem um numero maior do que 1");
         } else {
             System.out.println("Você tem um numero menor ou igual a 1");
+        }
+        for (int i = 1; i < numero; i++) {
+            System.out.println(i);
         }
 
         Scanner a = new Scanner(System.in);
